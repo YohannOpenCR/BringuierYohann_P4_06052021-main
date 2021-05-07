@@ -7,6 +7,21 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.mapsgoogle{
+    width: 400px;
+    height: 275px
+}
+ @media (max-width: 767px){
+     .mapsgoogle {
+         width: 90%;
+         margin: 5%;
+     }
+ }
+
+
+
+
+
 a,
 button {
     transition: all .3s ease-in-out;
